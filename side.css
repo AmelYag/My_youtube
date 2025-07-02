@@ -1,0 +1,31 @@
+.side{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    bottom: 0;
+    width: 72px;
+    margin-right: 100px;
+    z-index: 333;
+    margin-top: 50px;
+}
+.side-bar{
+ height: 72px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ cursor: pointer;
+
+}
+.side-bar:hover{
+    background-color: lightgray;
+}
+.side-bar img{
+    height: 24px;
+    margin-bottom: 5px;
+}
+.side-bar div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
